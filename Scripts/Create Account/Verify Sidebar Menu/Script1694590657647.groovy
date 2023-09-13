@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Create a Profile'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('TC Login/Create a Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('Login after create account'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('TC Login/Login after create account'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Side Bar Menu/btn_burgerMenu'), 0)
 

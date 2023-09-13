@@ -15,21 +15,21 @@
       <guid>5ee32d78-7357-44d0-88dd-ef333471ebe4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify Login page</testCaseId>
+      <testCaseId>Test Cases/TC Login/Verify Login page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b5e2e77d-cec9-4fd4-86bf-5df4a9eb6a60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create a Profile</testCaseId>
+      <testCaseId>Test Cases/TC Login/Create a Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ff2de842-8356-40c3-a19e-b36d96b00993</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create an Account</testCaseId>
+      <testCaseId>Test Cases/Create Account/Create an Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

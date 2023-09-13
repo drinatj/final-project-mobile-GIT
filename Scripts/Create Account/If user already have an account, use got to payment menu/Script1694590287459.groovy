@@ -21,7 +21,7 @@ String nowDate = new Date().format('EEEE')
 
 String nama = GlobalVariable.firstName
 
-Mobile.callTestCase(findTestCase('Create an Account'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Create Account/Create an Account'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Login/btn_Login'), 0)
 

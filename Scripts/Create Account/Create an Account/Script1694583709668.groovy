@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.callTestCase(findTestCase('TC Login/Login after create account'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.verifyElementText(findTestObject('Object Repository/Create Account/txt_dashboard'), 'Dashboard')
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Create Account/img_Logo'), 0)

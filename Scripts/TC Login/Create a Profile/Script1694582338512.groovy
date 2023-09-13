@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Verify Login page'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tap(findTestObject('Login/btn_CreateAProfile'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Create Profile/txt_CreateProfile'), 'Create Profile')
