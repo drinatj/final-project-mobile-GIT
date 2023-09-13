@@ -21,7 +21,7 @@ Mobile.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Login/btn_CreateAProfile'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/android.widget.TextView - Create Profile'), 'Create Profile')
+Mobile.verifyElementText(findTestObject('Object Repository/Create Profile/txt_CreateProfile'), 'Create Profile')
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Create Profile/input_FirstName'), 0)
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.widget.EditText - Initial Balance (Optional)</name>
+   <name>Input_You do not have any accounts, click below to add an account</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -11,8 +11,8 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.EditText</value>
-      <webElementGuid>8ded58b2-e14c-4d79-9cf7-618bc3b06d15</webElementGuid>
+      <value>android.widget.TextView</value>
+      <webElementGuid>77c8976b-2787-4841-a498-bae0ad516312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,23 +20,23 @@
       <name>index</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>4ff458d6-6d0d-492f-aeba-7f7de99a3230</webElementGuid>
+      <webElementGuid>808bc2bb-8773-45a3-bbc6-a62156214ebb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Initial Balance (Optional)</value>
-      <webElementGuid>c6a33725-7198-4d90-bec6-3b8364fceb59</webElementGuid>
+      <value>You do not have any accounts, click below to add an account</value>
+      <webElementGuid>19d6da33-30fe-4922-9818-efce8af042ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.example.mikebanks.bankscorpfinancial:id/edt_init_bal</value>
-      <webElementGuid>92163d5d-f8ba-45ae-bd41-2e0f7025a894</webElementGuid>
+      <value>com.example.mikebanks.bankscorpfinancial:id/txt_details_msg</value>
+      <webElementGuid>9ea14b0c-272d-4d1e-9eb7-1a030026cc1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.example.mikebanks.bankscorpfinancial</value>
-      <webElementGuid>474d9f1d-7c67-433b-a2db-4bec8aab7b0c</webElementGuid>
+      <webElementGuid>a8df0e57-87ce-4cdb-bbb6-64b39a66348b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3ab04c9d-f6c9-4a29-9d32-644a6ecbce69</webElementGuid>
+      <webElementGuid>deb84d33-4955-4877-aeb8-00f2df682214</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,15 +60,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5df52e71-4fff-4acf-b0ad-85ab685281e9</webElementGuid>
+      <webElementGuid>e9479079-23f8-4954-86be-2c6f38384c75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>0756f52d-ab68-4de8-a56e-07534d881ca5</webElementGuid>
+      <value>false</value>
+      <webElementGuid>99f3fc92-c3e3-4fc9-b2bb-b5d646e0dc8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,15 +76,15 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>dac669bc-d780-4de8-9ef4-990e7f1b1f95</webElementGuid>
+      <webElementGuid>394e9d46-38ff-45c7-8b14-8c3e9161d94a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>2dfb42f0-557a-472d-8520-7a2df0395623</webElementGuid>
+      <value>false</value>
+      <webElementGuid>564bae31-2f8d-4939-96c1-a0af13c18702</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>729234fd-502d-4ba7-be9c-683ed415abf6</webElementGuid>
+      <webElementGuid>0f0d1d84-ef7c-4e20-b17e-ff479807ba19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,15 +100,15 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1dfc776f-3fe9-4e1e-ac83-c2d9fb1663ce</webElementGuid>
+      <webElementGuid>f376f326-ed31-4daf-8ed9-09cdd5c05e06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>long-clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>f1444c1c-28b0-425a-963d-0089c410b861</webElementGuid>
+      <value>false</value>
+      <webElementGuid>085a7533-e0d6-4b3d-9ae4-6feed6f19d6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5df10b4c-8b21-4313-bc61-ea6e07cb5d9a</webElementGuid>
+      <webElementGuid>3d8e5569-2152-4187-bff2-f25cf21595b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,31 +124,31 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5c62910f-37fa-4106-93ec-075c86191e6f</webElementGuid>
+      <webElementGuid>a61e462b-9030-486d-9cfe-4634f99bdb88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>355</value>
-      <webElementGuid>dac08951-5521-4e2a-9ab1-ffdb5e94130d</webElementGuid>
+      <value>0</value>
+      <webElementGuid>e7426e2e-6cf4-483a-87ee-b53c146b990b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>983</value>
-      <webElementGuid>7e6b9458-63ad-43ad-90f0-19bb2aa5ed8a</webElementGuid>
+      <value>1033</value>
+      <webElementGuid>bde399fa-58a0-4671-b40c-0e4cf5536a6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>730</value>
-      <webElementGuid>3cf2c34c-bc7a-4d4d-8349-b3c5b6f6bdea</webElementGuid>
+      <value>1440</value>
+      <webElementGuid>d17d516e-2969-4a5e-8120-8e1e9f497a12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -156,15 +156,15 @@
       <name>height</name>
       <type>Main</type>
       <value>158</value>
-      <webElementGuid>8cc34097-3749-49bb-a071-b0b7b894c93b</webElementGuid>
+      <webElementGuid>bc060b85-06e6-4e4d-bb37-5f8fd849f8cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[355,983][1085,1141]</value>
-      <webElementGuid>faa44ed8-5d68-41ff-a92d-db4ef2f4f97d</webElementGuid>
+      <value>[0,1033][1440,1191]</value>
+      <webElementGuid>a71bcdce-3922-426f-971c-22b361300594</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,16 +172,16 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4acfb1f6-d205-4fbf-a76d-aff643f9f7b0</webElementGuid>
+      <webElementGuid>b9ff7733-88ba-4a85-b1bb-c200d55bf5ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.EditText[2]</value>
-      <webElementGuid>75f84c96-caa1-4aea-b268-26c32ea2f30f</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[2]</value>
+      <webElementGuid>61dbd08d-e7cc-44c1-844d-bff35077b80e</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.EditText' and (@text = 'Initial Balance (Optional)' or . = 'Initial Balance (Optional)') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/edt_init_bal']</locator>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'You do not have any accounts, click below to add an account' or . = 'You do not have any accounts, click below to add an account') and @resource-id = 'com.example.mikebanks.bankscorpfinancial:id/txt_details_msg']</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

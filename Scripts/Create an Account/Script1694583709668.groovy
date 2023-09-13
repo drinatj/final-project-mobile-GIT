@@ -17,9 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.callTestCase(findTestCase('Create a Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Login/btn_Login'), 0)
+Mobile.verifyElementText(findTestObject('Login/input_UsernameLogin'), GlobalVariable.firstName+GlobalVariable.lastName,)
+
+Mobile.verifyElementAttributeValue(findTestObject('Login/input_PasswordLogin'), '', GlobalVariable.password, 
+    0)
+
+Mobile.verifyElementChecked(findTestObject('Login/CheckBox_RememberCredentials'), 0)
+
+Mobile.tap(findTestObject('Login/btn_Login'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Create Account/txt_dashboard'), 'Dashboard')
 
@@ -30,58 +37,25 @@ Mobile.verifyElementText(findTestObject('Object Repository/Create Account/Input_
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Create Account/btn_AddAccount'), 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject('Create Account/btn_AddAccount'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Object Create/txt_Add an Account'), 'Add an Account')
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Create Account/input_AccountName'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/Create Account/Input_InitialBalance'), 
-    0)
+Mobile.verifyElementVisible(findTestObject('Object Repository/Create Account/Input_InitialBalance'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Create Account/btn_Cancel'), 'CANCEL')
 
 Mobile.verifyElementText(findTestObject('Object Repository/Create Account/btn_Add'), 'ADD')
 
-Mobile.setText(findTestObject(''), 'drina', 0)
+Mobile.setText(findTestObject('Create Account/input_AccountName'), GlobalVariable.accName, 0)
 
-Mobile.setText(findTestObject(''), '1000', 0)
+Mobile.setText(findTestObject('Create Account/Input_InitialBalance'), GlobalVariable.initialBalance, 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject('Create Account/btn_Add'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Object Create/btn_burgerMenu'), 0)
+Mobile.tap(findTestObject('Object Create/btn_burgerMenu'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/android.widget.TextView - aaa aaa'), 'aaa aaa')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/android.widget.TextView - aaa'), 'aaa')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/btn_Dashboard'), 'Dashboard')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/btn_accounts'), 'Accounts')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/txt_transaction'), 'Transaction')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/btn_MakeADeposit'), 
-    'Make a Deposit')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/btn_MakeATransfer'), 
-    'Make a Transfer')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/btn_MakeAPayment'), 
-    'Make a Payment')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/txt_profile'), 'Profile')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/btn_settings'), 'Settings')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/btn_Logout'), 'Logout')
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/txt_Payment'), 'Payment')
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/txt_Select an Account to Pay from'), 
-    'Select an Account to Pay from')
-
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Object Create/btn_Logout'), 0)
 
