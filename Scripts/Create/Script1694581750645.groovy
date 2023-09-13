@@ -17,65 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/fendrinayoarbarutjitra/Katalon Studio/test/APK/app-debug.apk', true)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/android.widget.TextView - Bank App Demo'), 'Bank App Demo')
-
-Mobile.verifyElementExist(findTestObject('Object Repository/Object Create/android.widget.TextView'), 0)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/Object Create/android.widget.ImageView'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.EditText - Username'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.EditText - Password'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.CheckBox - Remember Credentials'), 
-    0)
-
-Mobile.verifyElementVisible(findTestObject(''), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/android.widget.TextView - Dont have a profile'), 
-    'Don\'t have a profile?')
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.Button - CREATE A PROFILE'), 
-    0)
-
 Mobile.tap(findTestObject(''), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/android.widget.TextView - Create Profile'), 'Create Profile')
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.EditText - First Name'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.EditText - Last Name'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.EditText - Country'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.EditText - Username (1)'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.EditText - Password (1)'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.EditText - Confirm Password'), 
-    0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Object Create/android.widget.Button - Create Profile'), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.setText(findTestObject('Object Repository/Object Create/android.widget.EditText - First Name (1)'), 'aaa', 0)
-
-Mobile.setText(findTestObject(''), 'aaa', 0)
-
-Mobile.setText(findTestObject(''), 'aaa', 0)
-
-Mobile.setText(findTestObject(''), 'aaa', 0)
-
-Mobile.setText(findTestObject(''), 'aaa', 0)
-
-Mobile.setText(findTestObject(''), 'aaa', 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject('Object Repository/Object Create/android.widget.Button - LOGIN'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/btn_Login'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Object Create/android.widget.TextView - Dashboard'), 'Dashboard')
 
