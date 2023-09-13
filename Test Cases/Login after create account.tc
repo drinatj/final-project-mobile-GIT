@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login</name>
+   <name>Login after create account</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>536cd268-2a5d-4d5e-8b34-b2daa6b38be1</testCaseGuid>
+   <testCaseGuid>3b08ad54-138d-43e7-92c5-adefb23b8ed7</testCaseGuid>
 </TestCaseEntity>

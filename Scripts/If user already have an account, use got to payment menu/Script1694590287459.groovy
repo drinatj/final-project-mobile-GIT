@@ -30,9 +30,9 @@ Mobile.tap(findTestObject('Login/btn_Login'), 0)
 Mobile.verifyElementText(findTestObject('Object Repository/Create Account/android.widget.TextView - You do not have any accounts, click below to add an account'), 
     'You do not have any accounts, click below to add an account')*/
 if (Mobile.verifyElementNotVisible(findTestObject('Object Repository/Create Account/btn_AddAccount'), 0, FailureHandling.CONTINUE_ON_FAILURE)) {
-    Mobile.tap(findTestObject('Object Create/btn_burgerMenu'), 0)
+    Mobile.tap(findTestObject('Side Bar Menu/btn_burgerMenu'), 0)
 
-    Mobile.tap(findTestObject('Object Create/btn_MakeAPayment'), 0)
+    Mobile.tap(findTestObject('Side Bar Menu/btn_MakeAPayment'), 0)
 } else {
     Mobile.tap(findTestObject('Object Repository/Create Account/btn_AddAccount'), 0)
 
@@ -54,13 +54,13 @@ if (Mobile.verifyElementNotVisible(findTestObject('Object Repository/Create Acco
     Mobile.tap(findTestObject('Object Repository/Create Account/btn_Add'), 0)
 }
 
-Mobile.tap(findTestObject('Object Create/btn_burgerMenu'), 0)
+Mobile.tap(findTestObject('Side Bar Menu/btn_burgerMenu'), 0)
 
-Mobile.tap(findTestObject('Object Create/btn_MakeAPayment'), 0)
+Mobile.tap(findTestObject('Side Bar Menu/btn_MakeAPayment'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Create/txt_Select an Account to Pay from'), '')
+Mobile.verifyElementText(findTestObject('Object Repository/Create Account/txt_Select an Account to Pay from'), 'Select an Account to Pay from')
 
-Mobile.tap(findTestObject('Object Create/btn_burgerMenu'), 0)
+Mobile.tap(findTestObject('Side Bar Menu/btn_burgerMenu'), 0)
 
-Mobile.tap(findTestObject('Object Create/btn_Logout'), 0)
+Mobile.tap(findTestObject('Side Bar Menu/btn_Logout'), 0)
 

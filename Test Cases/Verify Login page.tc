@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create</name>
+   <name>Verify Login page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>59eb1d2c-35a7-48e8-b285-42288a1d7269</testCaseGuid>
+   <testCaseGuid>536cd268-2a5d-4d5e-8b34-b2daa6b38be1</testCaseGuid>
 </TestCaseEntity>

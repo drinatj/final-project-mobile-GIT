@@ -29,4 +29,14 @@
       <initValue>'admin'</initValue>
       <name>confrimPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Lisaa'</initValue>
+      <name>accName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1000'</initValue>
+      <name>initialBalance</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
