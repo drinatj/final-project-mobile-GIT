@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>If user already have an account, use got to payment menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6e045f6-2eef-4936-872f-03175684459e</testCaseGuid>
+</TestCaseEntity>
