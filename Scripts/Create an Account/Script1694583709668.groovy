@@ -19,27 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.callTestCase(findTestCase('Create a Profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Login/input_UsernameLogin'), GlobalVariable.firstName+GlobalVariable.lastName,)
-
-Mobile.verifyElementAttributeValue(findTestObject('Login/input_PasswordLogin'), '', GlobalVariable.password, 
-    0)
-
-Mobile.verifyElementChecked(findTestObject('Login/CheckBox_RememberCredentials'), 0)
-
-Mobile.tap(findTestObject('Login/btn_Login'), 0)
+Mobile.callTestCase(findTestCase('Verify Login page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementText(findTestObject('Object Repository/Create Account/txt_dashboard'), 'Dashboard')
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Create Account/img_Logo'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Create Account/Input_You do not have any accounts, click below to add an account'), 
+Mobile.verifyElementText(findTestObject('Object Repository/Create Account/txt_You do not have any accounts, click below to add an account'), 
     'You do not have any accounts, click below to add an account')
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Create Account/btn_AddAccount'), 0)
 
 Mobile.tap(findTestObject('Create Account/btn_AddAccount'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Object Create/txt_Add an Account'), 'Add an Account')
+Mobile.verifyElementText(findTestObject('Object Repository/Side Bar Menu/txt_Add an Account'), 'Add an Account')
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Create Account/input_AccountName'), 0)
 
@@ -55,7 +48,7 @@ Mobile.setText(findTestObject('Create Account/Input_InitialBalance'), GlobalVari
 
 Mobile.tap(findTestObject('Create Account/btn_Add'), 0)
 
-Mobile.tap(findTestObject('Object Create/btn_burgerMenu'), 0)
+Mobile.tap(findTestObject('Side Bar Menu/btn_burgerMenu'), 0)
 
-Mobile.tap(findTestObject('Object Create/btn_Logout'), 0)
+Mobile.tap(findTestObject('Side Bar Menu/btn_Logout'), 0)
 

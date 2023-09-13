@@ -17,26 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/fendrinayoarbarutjitra/Katalon Studio/test/APK/app-debug.apk', true)
+Mobile.startApplication('/Users/fendrinayoarbarutjitra/Katalon Studio/Final Project Mobile/APK/app-debug.apk', true)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Login/txt_Bank App Demo'), 'Bank App Demo')
-
-Mobile.verifyElementExist(findTestObject('Object Repository/Login/btn_Help'), 0)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/Login/btn_AppInfo'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Login/input_UsernameLogin'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Login/input_PasswordLogin'), 0)
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Login/CheckBox_RememberCredentials'), 
-    0)
-
-Mobile.verifyElementVisible(findTestObject('Login/btn_Login'), 0)
-
-Mobile.verifyElementText(findTestObject('Object Repository/Login/txt_Dont have a profile'), 
-    'Don\'t have a profile?')
-
-Mobile.verifyElementVisible(findTestObject('Object Repository/Login/btn_CreateAProfile'), 
-    0)
+Mobile.closeApplication()
 
